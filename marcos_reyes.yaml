@@ -1,0 +1,138 @@
+cv:
+  name: Marcos Reyes Martínez
+  headline:
+  location: Santiago, Chile
+  email: marcos@reyesandfriends.cl
+  photo:
+  phone:
+  website: https://astronautmarkus.dev
+  social_networks:
+    - network: LinkedIn
+      username: markusreyes
+    - network: GitHub
+      username: astronautmarkus
+  custom_connections:
+  sections:
+    Perfil:
+      - Soy un desarollador Full Stack y administrador de sistemas independiente, con experiencia en la creación y mantenimiento de aplicaciones web y servicios en la nube desplegados por mi mismo o plataformas de terceros.
+      - Me especializo en el desarrollo de soluciones personalizadas para pequeñas y medianas empresas, utilizando tecnologías modernas y mejores prácticas de la industria.
+    educación:
+      - institution: Duoc UC - Sede San Bernardo
+        area: Analista Programador Computacional
+        degree: TNS
+        date:
+        start_date: 2022-03
+        end_date: 2025-06
+        location: San Bernardo, Chile
+        summary:
+        highlights:
+          - 'Portafolio de título: Proyecto TurnoMaster - Sistema de gestión de turnos para PYMES en formato SaaS. Calificación final 7.0'
+    experiencia:
+      - company: Centro de practicas LastDon
+        position: Desarollador Full Stack / Director de Proyecto
+        date:
+        start_date: 2024-12
+        end_date: 2025-02
+        location: Remoto
+        summary:
+        highlights:
+          - Lideré un equipo de 5-8 desarrolladores en la creación de una plataforma web para la gestión de inventarios y ventas para una empresa local.
+          - Desarrollé un proyecto Monolito desacoplado con Front-end en React y Back-end en Laravel, implementando una base de datos MySQL.
+          - Desaplegué la aplicación en un servidor de Hostinger, gestionando la configuración del servidor creando la base de datos y asegurando la correcta implementación del proyecto.
+          - Realicé ayudantías a miembros del equipo explicando el uso de Git, GitHub, Trabajo con ramas, repositorios y Pull Requests. Expliqué la instalación de dependencias PHP y Node.js, así como la configuración del entorno de desarrollo, buenas prácticas de código y trabajo en equipo.
+          - Copeere en la creación de documentación técnica y manuales de usuario para facilitar la adopción y uso de la plataforma por parte de los usuarios finales.
+          - Implementé y gestioné un servidor de Discord para el equipo, mejorando la comunicación y colaboración frente a las limitaciones de Google Meet.
+    proyectos:
+      - name: '[Reyes&Friends](https://reyesandfriends.cl)'
+        date: '2025'
+        start_date: 2025-06
+        location: En línea
+        summary: Plataforma de servicios de desarrollo web y servicios informáticos.
+        highlights:
+          - Implementación de Monolito desacoplado con React con TailwindCSS como front-end y Flask como back-end.
+          - Despliegue en servidores VPS personal con configuración personalizada.
+          - Gestión de dominios y certificados SSL.
+          - Filtros de seguridad y formularios protegidos con Cloudflare Turnstile y reCAPTCHA.
+          - Diseño responsivo y optimización para SEO.
+      - name: '[ReyesHosting](https://github.com/)'
+        date: '2026'
+        start_date: 2026-01
+        location: En línea
+        summary: Plataforma de servicios de hosting de videojuegos como Minecraft, con panel de administración personalizado.
+        highlights:
+          - Desarollo de un sistema en formato E-commerce con Laravel, TailwindCSS y Livewire.
+          - Integración de pasarelas de pago como Webpay y Stripe.
+          - Automatización del despliegue de servidores de juegos en VPS mediante scripts personalizados.
+          - Gestión de usuarios, planes y facturación.
+          - Implementación de soporte técnico mediante tickets y chat en vivo.
+          - Optimización del rendimiento y escalabilidad del sistema.
+          - Diseño de una interfaz de usuario intuitiva y atractiva.
+          - Implementación de medidas de seguridad para proteger los datos de los usuarios y las transacciones.
+          - Mantenimiento y actualización continua del sistema para garantizar su funcionamiento óptimo.
+    publicaciones_y_artículos:
+      - title: 'Implementar un proxy inverso con Nginx en una Raspberry Pi - Blog AstronautMarkus (Blog en inglés)'
+        authors:
+          - '*Marcos Reyes / AstronautMarkus*'
+        summary:
+        url: https://blog.astronautmarkus.dev/blogs/deploy-reverse-proxy-nginx-raspberry/
+        journal: Blog
+        date: 2025-09
+      - title: 'Cómo vincular tu dominio a un servidor DNS paso a paso - Blog AstronautMarkus (Blog en inglés)'
+        authors:
+          - '*Marcos Reyes / AstronautMarkus*'
+        summary:
+        url: https://blog.astronautmarkus.dev/blogs/how-to-link-your-domain-to-a-dns-server-step-by-step/
+        journal: Blog
+        date: 2025-10
+      - title: 'Crear una API de Flask con Python - Blog AstronautMarkus (Blog en inglés)'
+        authors:
+          - '*Marcos Reyes / AstronautMarkus*'
+        summary:
+        url: https://blog.astronautmarkus.dev/blogs/create-a-flask-api-with-python/
+        journal: Blog
+        date: 2025-10
+    certificados_y_premios:
+      - bullet: ARQUITECTURA DE SOFTWARE - Duoc UC (2025)
+      - bullet: ANÁLISIS Y DESARROLLO DE MODELOS DE DATOS - Duoc UC (2025)
+      - bullet: PROGRAMACIÓN DE SOFTWARE - Duoc UC (2025)
+      - bullet: CALIDAD DE SOFTWARE - Duoc UC (2025)
+      - bullet: ANÁLISIS Y PLANIFICACIÓN DE REQUERIMIENTOS INFORMÁTICOS - Duoc UC (2025)
+      - bullet: INTERNACIONAL EN INGLÉS INTERMEDIO - Duoc UC (2025)
+      - bullet: Principios Básicos de Internet de las Cosas - Sence (2025)
+      - bullet: Programación con JavaScript - Sence (2025)
+    habilidades_y_competencias:
+      - label: Lenguajes de Programación y scripts
+        details: Python, PHP, HTML, CSS, JavaScript, TypeScript, SQL, Bash, Dockerfile, Yaml, JSON, CSV, Markdown, Arduino
+      - label: Frameworks y Librerías
+        details: React, Laravel, Flask, Django, TailwindCSS, Livewire, Bootstrap, Vue.js, Node.js, FastAPI
+      - label: Infraestructura y Herramientas
+        details: Apache, Nginx, Linux (Ubuntu, Debian, RHEL, Arch), VPS, Cloudflare, SSL, DNS, Git, GitHub, CI/CD, RESTful APIs, Docker, Virtualization, Bash Scripting, System Administration, Reverse Proxy, Web Security, SEO
+      - label: Bases de Datos
+        details: MySQL, MariaDB, SQLite, Oracle Database, Cassandra, MongoDB
+      - label: Implementación de plataformas
+        details: AWS S3, Hostinger, WebPay, Stripe
+      - label: Redes y seguridad
+        details: Fortinet, Fortigate, Firewalls, VPN
+      - label: Telefonía IP
+        details: Asterisk, FreePBX
+      - label: Hardware y Electrónica
+        details: Arduino UNO, Arduino Nano, ESP266, ESP32, I2C, SPI, Sensores analógicos y digitales, Raspberry Pi 4B, Rasperry Pi Zero 2w
+design:
+  theme: classic
+locale:
+  language: spanish
+settings:
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []

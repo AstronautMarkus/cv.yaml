@@ -1,0 +1,138 @@
+cv:
+  name: Marcos Reyes Martínez
+  headline:
+  location: Santiago, Chile
+  email: marcos@reyesandfriends.cl
+  photo:
+  phone:
+  website: https://astronautmarkus.dev
+  social_networks:
+    - network: LinkedIn
+      username: markusreyes
+    - network: GitHub
+      username: astronautmarkus
+  custom_connections:
+  sections:
+    Profile:
+      - I am an independent Full Stack developer and systems administrator, experienced in creating and maintaining web applications and cloud services deployed by myself or on third-party platforms.
+      - I specialize in developing custom solutions for small and medium-sized businesses, using modern technologies and industry best practices.
+    Education:
+      - institution: Duoc UC - San Bernardo Campus
+        area: Computer Programming Analyst
+        degree: TNS
+        date:
+        start_date: 2022-03
+        end_date: 2025-06
+        location: San Bernardo, Chile
+        summary:
+        highlights:
+          - 'Thesis Portfolio: TurnoMaster Project - Shift management system for SMEs in SaaS format. Final grade 7.0'
+    Experience:
+      - company: LastDon Internship Center
+        position: Full Stack Developer / Project Director
+        date:
+        start_date: 2024-12
+        end_date: 2025-02
+        location: Remote
+        summary:
+        highlights:
+          - Led a team of 5-8 developers in building a web platform for inventory and sales management for a local company.
+          - Developed a decoupled monolith project with React frontend and Laravel backend, implementing a MySQL database.
+          - Deployed the application on a Hostinger server, managing server configuration, database creation, and ensuring proper project implementation.
+          - Provided guidance to team members on using Git, GitHub, working with branches, repositories, and Pull Requests. Explained PHP and Node.js dependency installation, development environment setup, coding best practices, and teamwork.
+          - Contributed to the creation of technical documentation and user manuals to facilitate platform adoption and use by end users.
+          - Implemented and managed a Discord server for the team, improving communication and collaboration compared to Google Meet limitations.
+    Projects:
+      - name: '[Reyes&Friends](https://reyesandfriends.cl)'
+        date: '2025'
+        start_date: 2025-06
+        location: Online
+        summary: Web development and IT services platform.
+        highlights:
+          - Implementation of a decoupled monolith with React and TailwindCSS as frontend and Flask as backend.
+          - Deployment on personal VPS servers with custom configuration.
+          - Domain and SSL certificate management.
+          - Security filters and forms protected with Cloudflare Turnstile and reCAPTCHA.
+          - Responsive design and SEO optimization.
+      - name: '[ReyesHosting](https://github.com/)'
+        date: '2026'
+        start_date: 2026-01
+        location: Online
+        summary: Hosting platform for video games like Minecraft, with a custom admin panel.
+        highlights:
+          - Development of an E-commerce system with Laravel, TailwindCSS, and Livewire.
+          - Integration of payment gateways such as Webpay and Stripe.
+          - Automated deployment of game servers on VPS using custom scripts.
+          - User, plan, and billing management.
+          - Implementation of technical support via tickets and live chat.
+          - Performance optimization and system scalability.
+          - Design of an intuitive and attractive user interface.
+          - Implementation of security measures to protect user data and transactions.
+          - Continuous maintenance and updates to ensure optimal system operation.
+    Publications_and_Articles:
+      - title: 'Implementing a Reverse Proxy with Nginx on a Raspberry Pi - AstronautMarkus Blog (Blog in English)'
+        authors:
+          - '*Marcos Reyes / AstronautMarkus*'
+        summary:
+        url: https://blog.astronautmarkus.dev/blogs/deploy-reverse-proxy-nginx-raspberry/
+        journal: Blog
+        date: 2025-09
+      - title: 'How to Link Your Domain to a DNS Server Step by Step - AstronautMarkus Blog (Blog in English)'
+        authors:
+          - '*Marcos Reyes / AstronautMarkus*'
+        summary:
+        url: https://blog.astronautmarkus.dev/blogs/how-to-link-your-domain-to-a-dns-server-step-by-step/
+        journal: Blog
+        date: 2025-10
+      - title: 'Create a Flask API with Python - AstronautMarkus Blog (Blog in English)'
+        authors:
+          - '*Marcos Reyes / AstronautMarkus*'
+        summary:
+        url: https://blog.astronautmarkus.dev/blogs/create-a-flask-api-with-python/
+        journal: Blog
+        date: 2025-10
+    Certificates_and_Awards:
+      - bullet: SOFTWARE ARCHITECTURE - Duoc UC (2025)
+      - bullet: DATA MODEL ANALYSIS AND DEVELOPMENT - Duoc UC (2025)
+      - bullet: SOFTWARE PROGRAMMING - Duoc UC (2025)
+      - bullet: SOFTWARE QUALITY - Duoc UC (2025)
+      - bullet: ANALYSIS AND PLANNING OF IT REQUIREMENTS - Duoc UC (2025)
+      - bullet: INTERMEDIATE ENGLISH INTERNATIONAL - Duoc UC (2025)
+      - bullet: Basic Principles of Internet of Things - Sence (2025)
+      - bullet: Programming with JavaScript - Sence (2025)
+    Skills_and_Competencies:
+      - label: Programming Languages and Scripts
+        details: Python, PHP, HTML, CSS, JavaScript, TypeScript, SQL, Bash, Dockerfile, Yaml, JSON, CSV, Markdown, Arduino
+      - label: Frameworks and Libraries
+        details: React, Laravel, Flask, Django, TailwindCSS, Livewire, Bootstrap, Vue.js, Node.js, FastAPI
+      - label: Infrastructure and Tools
+        details: Apache, Nginx, Linux (Ubuntu, Debian, RHEL, Arch), VPS, Cloudflare, SSL, DNS, Git, GitHub, CI/CD, RESTful APIs, Docker, Virtualization, Bash Scripting, System Administration, Reverse Proxy, Web Security, SEO
+      - label: Databases
+        details: MySQL, MariaDB, SQLite, Oracle Database, Cassandra, MongoDB
+      - label: Platform Implementation
+        details: AWS S3, Hostinger, WebPay, Stripe
+      - label: Networks and Security
+        details: Fortinet, Fortigate, Firewalls, VPN
+      - label: IP Telephony
+        details: Asterisk, FreePBX
+      - label: Hardware and Electronics
+        details: Arduino UNO, Arduino Nano, ESP266, ESP32, I2C, SPI, Analog and digital sensors, Raspberry Pi 4B, Raspberry Pi Zero 2w
+design:
+  theme: classic
+locale:
+  language: english
+settings:
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []

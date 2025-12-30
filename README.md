@@ -1,2 +1,2 @@
-# cv.yaml
-CV para el laburito
+Veritas vos liberabit
+======================
