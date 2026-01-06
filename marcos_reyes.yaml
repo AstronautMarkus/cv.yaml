@@ -69,28 +69,6 @@ cv:
           - Diseño de una interfaz de usuario intuitiva y atractiva.
           - Implementación de medidas de seguridad para proteger los datos de los usuarios y las transacciones.
           - Mantenimiento y actualización continua del sistema para garantizar su funcionamiento óptimo.
-    publicaciones_y_artículos:
-      - title: 'Implementar un proxy inverso con Nginx en una Raspberry Pi - Blog AstronautMarkus (Blog en inglés)'
-        authors:
-          - '*Marcos Reyes / AstronautMarkus*'
-        summary:
-        url: https://blog.astronautmarkus.dev/blogs/deploy-reverse-proxy-nginx-raspberry/
-        journal: Blog
-        date: 2025-09
-      - title: 'Cómo vincular tu dominio a un servidor DNS paso a paso - Blog AstronautMarkus (Blog en inglés)'
-        authors:
-          - '*Marcos Reyes / AstronautMarkus*'
-        summary:
-        url: https://blog.astronautmarkus.dev/blogs/how-to-link-your-domain-to-a-dns-server-step-by-step/
-        journal: Blog
-        date: 2025-10
-      - title: 'Crear una API de Flask con Python - Blog AstronautMarkus (Blog en inglés)'
-        authors:
-          - '*Marcos Reyes / AstronautMarkus*'
-        summary:
-        url: https://blog.astronautmarkus.dev/blogs/create-a-flask-api-with-python/
-        journal: Blog
-        date: 2025-10
     certificados_y_premios:
       - bullet: ARQUITECTURA DE SOFTWARE - Duoc UC (2025)
       - bullet: ANÁLISIS Y DESARROLLO DE MODELOS DE DATOS - Duoc UC (2025)
@@ -113,10 +91,6 @@ cv:
         details: AWS S3, Hostinger, WebPay, Stripe
       - label: Redes y seguridad
         details: Fortinet, Fortigate, Firewalls, VPN
-      - label: Telefonía IP
-        details: Asterisk, FreePBX
-      - label: Hardware y Electrónica
-        details: Arduino UNO, Arduino Nano, ESP266, ESP32, I2C, SPI, Sensores analógicos y digitales, Raspberry Pi 4B, Rasperry Pi Zero 2w
 design:
   theme: classic
 locale:
