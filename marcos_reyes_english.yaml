@@ -54,7 +54,7 @@ cv:
           - Domain and SSL certificate management.
           - Security filters and forms protected with Cloudflare Turnstile and reCAPTCHA.
           - Responsive design and SEO optimization.
-      - name: '[ReyesHosting](https://github.com/)'
+      - name: '[ReyesHosting](https://reyeshosting.cl)'
         date: '2026'
         start_date: 2026-01
         location: Online
