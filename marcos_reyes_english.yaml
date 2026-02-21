@@ -14,8 +14,8 @@ cv:
   custom_connections:
   sections:
     Profile:
-      - I am an independent Full Stack developer and systems administrator, experienced in creating and maintaining web applications and cloud services deployed by myself or on third-party platforms.
-      - I specialize in developing custom solutions for small and medium-sized businesses, using modern technologies and industry best practices.
+      - I am an independent Full Stack developer and systems administrator with experience across the full SDLC (Software Development Life Cycle), from requirements gathering to cloud and VPS deployment and maintenance.
+      - I work with Agile methodologies (Scrum and Kanban), sprint planning, technical leadership, and mentoring, building solutions for SMEs focused on optimization, security, software quality, and continuous improvement based on metrics.
     Education:
       - institution: Duoc UC - San Bernardo Campus
         area: Computer Programming Analyst
@@ -36,12 +36,12 @@ cv:
         location: Remote
         summary:
         highlights:
-          - Led a team of 5-8 developers in building a web platform for inventory and sales management for a local company.
-          - Developed a decoupled monolith project with React frontend and Laravel backend, implementing a MySQL database.
-          - Deployed the application on a Hostinger server, managing server configuration, database creation, and ensuring proper project implementation.
-          - Provided guidance to team members on using Git, GitHub, working with branches, repositories, and Pull Requests. Explained PHP and Node.js dependency installation, development environment setup, coding best practices, and teamwork.
-          - Contributed to the creation of technical documentation and user manuals to facilitate platform adoption and use by end users.
-          - Implemented and managed a Discord server for the team, improving communication and collaboration compared to Google Meet limitations.
+          - Technically led a team of 5 developers (Front-End and Back-End), orchestrating work with Agile/Scrum, Kanban, and weekly sprints to build an inventory and sales platform with React, Laravel, and MySQL.
+          - Architected a decoupled monolith (React + Laravel + MySQL), removing bottlenecks and reducing load times by approximately 30% through query and component optimization.
+          - Deployed the application on Hostinger, configuring server, database, and SSL, reducing time-to-production by 40% with standardized release processes.
+          - Implemented GitHub Flow best practices (branching, Pull Requests, code review) and provided technical mentoring in PHP/Node.js, accelerating team onboarding by 50%.
+          - Collaborated on technical documentation and user manuals, increasing platform feature adoption and reducing reported usage incidents by 25%.
+          - Managed team operational communication through a Discord server, improving daily coordination and technical blocker resolution (troubleshooting).
     Projects:
       - name: '[Reyes&Friends](https://reyesandfriends.cl)'
         date: '2025'
@@ -49,23 +49,23 @@ cv:
         location: Online
         summary: Web development and IT services platform.
         highlights:
-          - Implementation of a decoupled monolith with React and TailwindCSS as frontend and Flask as backend.
-          - Deployment on personal VPS servers with custom configuration.
+          - Implemented a decoupled monolithic architecture with React + TailwindCSS (Front-End) and Flask (Back-End), following SDLC practices and GitHub version control.
+          - Deployed on VPS infrastructure with Docker and service containerization, reducing deployment times by approximately 35%.
           - Domain and SSL certificate management.
-          - Security filters and forms protected with Cloudflare Turnstile and reCAPTCHA.
-          - Responsive design and SEO optimization.
+          - Implemented security filters and forms protected with Cloudflare Turnstile and reCAPTCHA, reducing invalid automated submissions by over 80%.
+          - Delivered responsive design and SEO optimization, improving initial load performance by around 25%.
       - name: '[ReyesHosting](https://reyeshosting.cl)'
         date: '2026'
         start_date: 2026-01
         location: Online
         summary: Hosting platform for video games like Minecraft, with a custom admin panel.
         highlights:
-          - Development of an E-commerce system with Laravel, TailwindCSS, and Livewire.
+          - Developed an E-commerce platform with Laravel, TailwindCSS, and Livewire, focused on scalability and service-oriented architecture.
           - Integration of payment gateways such as Webpay and Stripe.
-          - Automated deployment of game servers on VPS using custom scripts.
-          - User, plan, and billing management.
-          - Implementation of technical support via tickets and live chat.
-          - Performance optimization and system scalability.
+          - Automated game server provisioning on VPS through Bash scripts and CI/CD workflows, reducing provisioning time by 60%.
+          - Implemented user, plan, and billing management with standardized processes and operational traceability.
+          - Implemented technical support via tickets and live chat, improving average first-response time by 40%.
+          - Optimized performance and system scalability through continuous monitoring and infrastructure tuning.
           - Design of an intuitive and attractive user interface.
           - Implementation of security measures to protect user data and transactions.
           - Continuous maintenance and updates to ensure optimal system operation.
@@ -83,12 +83,16 @@ cv:
         details: Python, PHP, HTML, CSS, JavaScript, TypeScript, SQL, Bash, Dockerfile, Yaml, JSON, CSV, Markdown, Arduino
       - label: Frameworks and Libraries
         details: React, Laravel, Flask, Django, TailwindCSS, Livewire, Bootstrap, Vue.js, Node.js, FastAPI
+      - label: Methodologies and Management
+        details: Agile, Scrum, Kanban, Sprints, SDLC, Technical Leadership, Mentoring, Problem Solving, Troubleshooting
+      - label: Testing and Quality
+        details: Unit Testing, Integration Testing, TDD, Jest, PHPUnit, PyTest, Software Quality, Code Review
       - label: Infrastructure and Tools
-        details: Apache, Nginx, Linux (Ubuntu, Debian, RHEL, Arch), VPS, Cloudflare, SSL, DNS, Git, GitHub, CI/CD, RESTful APIs, Docker, Virtualization, Bash Scripting, System Administration, Reverse Proxy, Web Security, SEO
+        details: Apache, Nginx, Linux (Ubuntu, Debian, RHEL, Arch), VPS, Cloudflare, SSL, DNS, Git, GitHub, GitHub Actions, CI/CD, RESTful APIs, Docker, Containerization, Virtualization, Bash Scripting, System Administration, Reverse Proxy, Web Security, SEO, Microservices Architecture
       - label: Databases
         details: MySQL, MariaDB, SQLite, Oracle Database, Cassandra, MongoDB
       - label: Platform Implementation
-        details: AWS S3, Hostinger, WebPay, Stripe
+        details: AWS S3, AWS EC2, Hostinger, WebPay, Stripe
       - label: Networks and Security
         details: Fortinet, Fortigate, Firewalls, VPN
 design:

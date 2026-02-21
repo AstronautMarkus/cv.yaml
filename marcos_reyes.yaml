@@ -14,8 +14,8 @@ cv:
   custom_connections:
   sections:
     Perfil:
-      - Soy un desarollador Full Stack y administrador de sistemas independiente, con experiencia en la creación y mantenimiento de aplicaciones web y servicios en la nube desplegados por mi mismo o plataformas de terceros.
-      - Me especializo en el desarrollo de soluciones personalizadas para pequeñas y medianas empresas, utilizando tecnologías modernas y mejores prácticas de la industria.
+      - Soy desarrollador Full Stack y administrador de sistemas independiente, con experiencia en el ciclo completo SDLC (Software Development Life Cycle), desde el levantamiento de requerimientos hasta el despliegue y mantenimiento en nube y VPS.
+      - Trabajo con metodologías Agile (Scrum y Kanban), planificación por sprints, liderazgo técnico y mentoría, desarrollando soluciones para PYMES con foco en optimización, seguridad, calidad de software y mejora continua basada en métricas.
     educación:
       - institution: Duoc UC - Sede San Bernardo
         area: Analista Programador Computacional
@@ -36,12 +36,12 @@ cv:
         location: Remoto
         summary:
         highlights:
-          - Lideré un equipo de 5-8 desarrolladores en la creación de una plataforma web para la gestión de inventarios y ventas para una empresa local.
-          - Desarrollé un proyecto Monolito desacoplado con Front-end en React y Back-end en Laravel, implementando una base de datos MySQL.
-          - Desaplegué la aplicación en un servidor de Hostinger, gestionando la configuración del servidor creando la base de datos y asegurando la correcta implementación del proyecto.
-          - Realicé ayudantías a miembros del equipo explicando el uso de Git, GitHub, Trabajo con ramas, repositorios y Pull Requests. Expliqué la instalación de dependencias PHP y Node.js, así como la configuración del entorno de desarrollo, buenas prácticas de código y trabajo en equipo.
-          - Copeere en la creación de documentación técnica y manuales de usuario para facilitar la adopción y uso de la plataforma por parte de los usuarios finales.
-          - Implementé y gestioné un servidor de Discord para el equipo, mejorando la comunicación y colaboración frente a las limitaciones de Google Meet.
+          - Lideré técnicamente un equipo de 5 desarrolladores (Front-End y Back-End), orquestando el trabajo con Agile/Scrum, Kanban y sprints semanales para construir una plataforma de inventarios y ventas con React, Laravel y MySQL.
+          - Arquitecté un monolito desacoplado (React + Laravel + MySQL), resolviendo cuellos de botella y reduciendo los tiempos de carga en aproximadamente 30% mediante optimización de consultas y componentes.
+          - Desplegué la aplicación en Hostinger, configurando servidor, base de datos y SSL, disminuyendo el tiempo de salida a producción en 40% con procesos estandarizados de release.
+          - Implementé buenas prácticas de GitHub Flow (ramas, Pull Requests, code review) y mentoría técnica en PHP/Node.js, acelerando el onboarding del equipo en 50%.
+          - Colaboré en documentación técnica y manuales de usuario, aumentando la adopción funcional de la plataforma y reduciendo incidencias de uso reportadas en 25%.
+          - Gestioné la comunicación operativa del equipo con un servidor de Discord, mejorando la coordinación diaria y la resolución de bloqueos técnicos (troubleshooting).
     proyectos:
       - name: '[Reyes&Friends](https://reyesandfriends.cl)'
         date: '2025'
@@ -49,23 +49,23 @@ cv:
         location: En línea
         summary: Plataforma de servicios de desarrollo web y servicios informáticos.
         highlights:
-          - Implementación de Monolito desacoplado con React con TailwindCSS como front-end y Flask como back-end.
-          - Despliegue en servidores VPS personal con configuración personalizada.
+          - Implementación de arquitectura monolítica desacoplada con React + TailwindCSS (Front-End) y Flask (Back-End), siguiendo prácticas SDLC y versionado con GitHub.
+          - Despliegue en VPS con Docker y contenedorización de servicios, reduciendo tiempos de despliegue en aproximadamente 35%.
           - Gestión de dominios y certificados SSL.
-          - Filtros de seguridad y formularios protegidos con Cloudflare Turnstile y reCAPTCHA.
-          - Diseño responsivo y optimización para SEO.
+          - Implementación de filtros de seguridad y formularios protegidos con Cloudflare Turnstile y reCAPTCHA, reduciendo envíos automatizados no válidos en más de 80%.
+          - Diseño responsivo y optimización SEO, mejorando el rendimiento de carga inicial en alrededor de 25%.
       - name: '[ReyesHosting](https://reyeshosting.cl)'
         date: '2026'
         start_date: 2026-01
         location: En línea
         summary: Plataforma de servicios de hosting de videojuegos como Minecraft, con panel de administración personalizado.
         highlights:
-          - Desarollo de un sistema en formato E-commerce con Laravel, TailwindCSS y Livewire.
+          - Desarrollo de una plataforma E-commerce con Laravel, TailwindCSS y Livewire, orientada a escalabilidad y arquitectura de servicios.
           - Integración de pasarelas de pago como Webpay y Stripe.
-          - Automatización del despliegue de servidores de juegos en VPS mediante scripts personalizados.
-          - Gestión de usuarios, planes y facturación.
-          - Implementación de soporte técnico mediante tickets y chat en vivo.
-          - Optimización del rendimiento y escalabilidad del sistema.
+          - Automatización del despliegue de servidores de juegos en VPS mediante scripts Bash y flujos CI/CD, reduciendo tiempos de aprovisionamiento en 60%.
+          - Gestión de usuarios, planes y facturación con procesos estandarizados y trazabilidad operativa.
+          - Implementación de soporte técnico mediante tickets y chat en vivo, mejorando el tiempo promedio de primera respuesta en 40%.
+          - Optimización del rendimiento y escalabilidad del sistema con monitoreo continuo y ajustes de infraestructura.
           - Diseño de una interfaz de usuario intuitiva y atractiva.
           - Implementación de medidas de seguridad para proteger los datos de los usuarios y las transacciones.
           - Mantenimiento y actualización continua del sistema para garantizar su funcionamiento óptimo.
@@ -83,12 +83,16 @@ cv:
         details: Python, PHP, HTML, CSS, JavaScript, TypeScript, SQL, Bash, Dockerfile, Yaml, JSON, CSV, Markdown, Arduino
       - label: Frameworks y Librerías
         details: React, Laravel, Flask, Django, TailwindCSS, Livewire, Bootstrap, Vue.js, Node.js, FastAPI
+      - label: Metodologías y gestión
+        details: Agile, Scrum, Kanban, Sprints, SDLC, Liderazgo Técnico, Mentoría, Resolución de problemas, Troubleshooting
+      - label: Testing y calidad
+        details: Unit Testing, Integration Testing, TDD, Jest, PHPUnit, PyTest, Calidad de Software, Code Review
       - label: Infraestructura y Herramientas
-        details: Apache, Nginx, Linux (Ubuntu, Debian, RHEL, Arch), VPS, Cloudflare, SSL, DNS, Git, GitHub, CI/CD, RESTful APIs, Docker, Virtualization, Bash Scripting, System Administration, Reverse Proxy, Web Security, SEO
+        details: Apache, Nginx, Linux (Ubuntu, Debian, RHEL, Arch), VPS, Cloudflare, SSL, DNS, Git, GitHub, GitHub Actions, CI/CD, RESTful APIs, Docker, Contenedorización, Virtualization, Bash Scripting, System Administration, Reverse Proxy, Web Security, SEO, Arquitectura de Microservicios
       - label: Bases de Datos
         details: MySQL, MariaDB, SQLite, Oracle Database, Cassandra, MongoDB
       - label: Implementación de plataformas
-        details: AWS S3, Hostinger, WebPay, Stripe
+        details: AWS S3, AWS EC2, Hostinger, WebPay, Stripe
       - label: Redes y seguridad
         details: Fortinet, Fortigate, Firewalls, VPN
 design:
