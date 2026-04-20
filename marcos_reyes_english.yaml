@@ -2,7 +2,7 @@ cv:
   name: Marcos Reyes Martínez
   headline:
   location: Santiago, Chile
-  email: marcos@reyesandfriends.cl
+  email: marcos@astronautmarkus.dev
   photo:
   phone:
   website: https://astronautmarkus.dev
@@ -16,6 +16,7 @@ cv:
     Profile:
       - I am an independent Full Stack developer and systems administrator with experience across the full SDLC (Software Development Life Cycle), from requirements gathering to cloud and VPS deployment and maintenance.
       - I work with Agile methodologies (Scrum and Kanban), sprint planning, technical leadership, and mentoring, building solutions for SMEs focused on optimization, security, software quality, and continuous improvement based on metrics.
+      - I have experience implementing decoupled monolithic architectures and microservices, as well as maintaining servers and services in production, with continuous monitoring and infrastructure adjustments to ensure scalability and optimal application performance.
     Education:
       - institution: Duoc UC - San Bernardo Campus
         area: Computer Programming Analyst
@@ -28,6 +29,18 @@ cv:
         highlights:
           - 'Thesis Portfolio: TurnoMaster Project - Shift management system for SMEs in SaaS format. Final grade 7.0'
     Experience:
+      - company: Colegio Aragón
+        position: Full Stack Developer / Technical Assistant
+        date:
+        start_date: 2026-03-17
+        end_date: present
+        location: On-site, San Bernardo, Chile
+        summary: Full Stack Developer and technical assistant, responsible for supporting teachers in classroom technology implementation, equipment repair and maintenance, and development of digital solutions to improve school management.
+        highlights:
+        - Refactored legacy PHP spaghetti code by implementing Laravel 13 with Gemini integration, building a school management platform with attendance, grading, assignments, and communication modules for teachers, students, and parents.
+        - Provisioned internal network services via virtual machines (Samba shared folder, restrictive DNS, printer management), improving operational efficiency and school network security.
+        - Participated in security audits, equipment maintenance, and configuration of digital platforms (Cloudflare, GitHub, hosting), ensuring operational continuity of the institution.
+        - Developed technical documentation and supported teachers in classroom technology adoption, optimizing the use of digital tools in the educational environment.
       - company: LastDon Internship Center
         position: Full Stack Developer / Project Director
         date:
@@ -36,46 +49,21 @@ cv:
         location: Remote
         summary:
         highlights:
-          - Technically led a team of 5 developers (Front-End and Back-End), orchestrating work with Agile/Scrum, Kanban, and weekly sprints to build an inventory and sales platform with React, Laravel, and MySQL.
-          - Architected a decoupled monolith (React + Laravel + MySQL), removing bottlenecks and reducing load times by approximately 30% through query and component optimization.
-          - Deployed the application on Hostinger, configuring server, database, and SSL, reducing time-to-production by 40% with standardized release processes.
-          - Implemented GitHub Flow best practices (branching, Pull Requests, code review) and provided technical mentoring in PHP/Node.js, accelerating team onboarding by 50%.
-          - Collaborated on technical documentation and user manuals, increasing platform feature adoption and reducing reported usage incidents by 25%.
-          - Managed team operational communication through a Discord server, improving daily coordination and technical blocker resolution (troubleshooting).
+          - Technically led a team of 5 developers under Agile/Scrum and Kanban, building an inventory and sales platform with React, Laravel, and MySQL.
+          - Designed and implemented a decoupled monolith, reducing load times by 30% through query optimization and time-to-production by 40% with standardized release processes.
+          - Implemented GitHub Flow with code review and technical mentoring in PHP/Node.js, reducing team onboarding time by 50% and reported usage incidents by 25%.
     Projects:
-      - name: '[Reyes&Friends](https://reyesandfriends.cl)'
-        date: '2025'
-        start_date: 2025-06
-        location: Online
-        summary: Web development and IT services platform.
-        highlights:
-          - Implemented a decoupled monolithic architecture with React + TailwindCSS (Front-End) and Flask (Back-End), following SDLC practices and GitHub version control.
-          - Deployed on VPS infrastructure with Docker and service containerization, reducing deployment times by approximately 35%.
-          - Domain and SSL certificate management.
-          - Implemented security filters and forms protected with Cloudflare Turnstile and reCAPTCHA, reducing invalid automated submissions by over 80%.
-          - Delivered responsive design and SEO optimization, improving initial load performance by around 25%.
       - name: '[ReyesHosting](https://reyeshosting.cl)'
         date: '2026'
         start_date: 2026-01
         location: Online
         summary: Hosting platform for video games like Minecraft, with a custom admin panel.
         highlights:
-          - Developed an E-commerce platform with Laravel, TailwindCSS, and Livewire, focused on scalability and service-oriented architecture.
-          - Integration of payment gateways such as Webpay and Stripe.
-          - Automated game server provisioning on VPS through Bash scripts and CI/CD workflows, reducing provisioning time by 60%.
-          - Implemented user, plan, and billing management with standardized processes and operational traceability.
-          - Implemented technical support via tickets and live chat, improving average first-response time by 40%.
-          - Optimized performance and system scalability through continuous monitoring and infrastructure tuning.
-          - Design of an intuitive and attractive user interface.
-          - Implementation of security measures to protect user data and transactions.
-          - Continuous maintenance and updates to ensure optimal system operation.
+          - E-commerce platform built with Laravel, TailwindCSS, and Livewire, with payment gateway integration (Webpay and Stripe) and full user, plan, and billing management.
+          - Automated game server deployment on VPS via Bash scripts and CI/CD workflows, reducing provisioning times by 60%.
+          - Implemented technical support via ticket system and live chat, improving average first-response time by 40%, with continuous monitoring and security measures to protect user data and transactions.
     Certificates_and_Awards:
-      - bullet: SOFTWARE ARCHITECTURE - Duoc UC (2025)
-      - bullet: DATA MODEL ANALYSIS AND DEVELOPMENT - Duoc UC (2025)
-      - bullet: SOFTWARE PROGRAMMING - Duoc UC (2025)
-      - bullet: SOFTWARE QUALITY - Duoc UC (2025)
-      - bullet: ANALYSIS AND PLANNING OF IT REQUIREMENTS - Duoc UC (2025)
-      - bullet: INTERMEDIATE ENGLISH INTERNATIONAL - Duoc UC (2025)
+      - bullet: 'Duoc UC (2025): Software Architecture, Data Model Analysis and Development, Software Programming, Software Quality, Analysis and Planning of IT Requirements, Intermediate English International'
       - bullet: Basic Principles of Internet of Things - Sence (2025)
       - bullet: Programming with JavaScript - Sence (2025)
     Skills_and_Competencies:

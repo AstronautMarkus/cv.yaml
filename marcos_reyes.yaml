@@ -2,7 +2,7 @@ cv:
   name: Marcos Reyes Martínez
   headline:
   location: Santiago, Chile
-  email: marcos@reyesandfriends.cl
+  email: marcos@astronautmarkus.dev
   photo:
   phone:
   website: https://astronautmarkus.dev
@@ -16,6 +16,7 @@ cv:
     Perfil:
       - Soy desarrollador Full Stack y administrador de sistemas independiente, con experiencia en el ciclo completo SDLC (Software Development Life Cycle), desde el levantamiento de requerimientos hasta el despliegue y mantenimiento en nube y VPS.
       - Trabajo con metodologías Agile (Scrum y Kanban), planificación por sprints, liderazgo técnico y mentoría, desarrollando soluciones para PYMES con foco en optimización, seguridad, calidad de software y mejora continua basada en métricas.
+      - Cuento con experiencia en la implementación de arquitecturas monolíticas desacopladas y microservicios, así como en el mantenimiento de servidores y servicios en producción, con monitoreo continuo y ajustes de infraestructura para garantizar la escalabilidad y el rendimiento óptimo de las aplicaciones.
     educación:
       - institution: Duoc UC - Sede San Bernardo
         area: Analista Programador Computacional
@@ -28,54 +29,41 @@ cv:
         highlights:
           - 'Portafolio de título: Proyecto TurnoMaster - Sistema de gestión de turnos para PYMES en formato SaaS. Calificación final 7.0'
     experiencia:
-      - company: Centro de practicas LastDon
-        position: Desarollador Full Stack / Director de Proyecto
+      - company: Colegio Aragón
+        position: Desarrollador Full Stack / Asistente Técnico
+        date: 
+        start_date: 2026-03-17
+        end_date: present
+        location: Presencial, San Bernardo, Chile
+        summary: Desarrollador Full Stack y asistente técnico, encargado de ayudar a docentes con la implementación de tecnología en el aula, reparación y mantenimiento de equipos, y desarrollo de soluciones digitales para mejorar la gestión escolar.
+        highlights:
+        - Refactoricé código espagueti legado en PHP implementando Laravel 13 con integración de Gemini, construyendo una plataforma escolar con módulos de asistencia, calificaciones, tareas y comunicación para docentes, estudiantes y apoderados.
+        - Despliegué servicios de red internos mediante máquinas virtuales (Samba, DNS restrictivo, administración de impresoras), mejorando la seguridad y eficiencia operativa de la red escolar.
+        - Participé en auditorías de seguridad, mantenimiento de equipos y configuración de plataformas digitales (Cloudflare, GitHub, hosting), garantizando la continuidad operativa del establecimiento.
+        - Desarrollé documentación técnica y asistí a docentes en la adopción de tecnología en el aula, optimizando el uso de herramientas digitales en el entorno educativo.
+      - company: Centro de Prácticas LastDon
+        position: Desarrollador Full Stack / Director de Proyecto
         date:
         start_date: 2024-12
         end_date: 2025-02
         location: Remoto
         summary:
         highlights:
-          - Lideré técnicamente un equipo de 5 desarrolladores (Front-End y Back-End), orquestando el trabajo con Agile/Scrum, Kanban y sprints semanales para construir una plataforma de inventarios y ventas con React, Laravel y MySQL.
-          - Arquitecté un monolito desacoplado (React + Laravel + MySQL), resolviendo cuellos de botella y reduciendo los tiempos de carga en aproximadamente 30% mediante optimización de consultas y componentes.
-          - Desplegué la aplicación en Hostinger, configurando servidor, base de datos y SSL, disminuyendo el tiempo de salida a producción en 40% con procesos estandarizados de release.
-          - Implementé buenas prácticas de GitHub Flow (ramas, Pull Requests, code review) y mentoría técnica en PHP/Node.js, acelerando el onboarding del equipo en 50%.
-          - Colaboré en documentación técnica y manuales de usuario, aumentando la adopción funcional de la plataforma y reduciendo incidencias de uso reportadas en 25%.
-          - Gestioné la comunicación operativa del equipo con un servidor de Discord, mejorando la coordinación diaria y la resolución de bloqueos técnicos (troubleshooting).
+          - Lideré técnicamente un equipo de 5 desarrolladores bajo Agile/Scrum y Kanban, construyendo una plataforma de inventarios y ventas con React, Laravel y MySQL.
+          - Diseñé e implementé un monolito desacoplado, reduciendo los tiempos de carga en un 30% mediante optimización de consultas, y el tiempo de salida a producción en un 40% con procesos estandarizados de lanzamiento.
+          - Implementé GitHub Flow con revisión de código y mentoría técnica en PHP/Node.js, reduciendo el tiempo de incorporación del equipo en un 50% y las incidencias de uso en un 25%.
     proyectos:
-      - name: '[Reyes&Friends](https://reyesandfriends.cl)'
-        date: '2025'
-        start_date: 2025-06
-        location: En línea
-        summary: Plataforma de servicios de desarrollo web y servicios informáticos.
-        highlights:
-          - Implementación de arquitectura monolítica desacoplada con React + TailwindCSS (Front-End) y Flask (Back-End), siguiendo prácticas SDLC y versionado con GitHub.
-          - Despliegue en VPS con Docker y contenedorización de servicios, reduciendo tiempos de despliegue en aproximadamente 35%.
-          - Gestión de dominios y certificados SSL.
-          - Implementación de filtros de seguridad y formularios protegidos con Cloudflare Turnstile y reCAPTCHA, reduciendo envíos automatizados no válidos en más de 80%.
-          - Diseño responsivo y optimización SEO, mejorando el rendimiento de carga inicial en alrededor de 25%.
       - name: '[ReyesHosting](https://reyeshosting.cl)'
         date: '2026'
         start_date: 2026-01
         location: En línea
         summary: Plataforma de servicios de hosting de videojuegos como Minecraft, con panel de administración personalizado.
         highlights:
-          - Desarrollo de una plataforma E-commerce con Laravel, TailwindCSS y Livewire, orientada a escalabilidad y arquitectura de servicios.
-          - Integración de pasarelas de pago como Webpay y Stripe.
-          - Automatización del despliegue de servidores de juegos en VPS mediante scripts Bash y flujos CI/CD, reduciendo tiempos de aprovisionamiento en 60%.
-          - Gestión de usuarios, planes y facturación con procesos estandarizados y trazabilidad operativa.
-          - Implementación de soporte técnico mediante tickets y chat en vivo, mejorando el tiempo promedio de primera respuesta en 40%.
-          - Optimización del rendimiento y escalabilidad del sistema con monitoreo continuo y ajustes de infraestructura.
-          - Diseño de una interfaz de usuario intuitiva y atractiva.
-          - Implementación de medidas de seguridad para proteger los datos de los usuarios y las transacciones.
-          - Mantenimiento y actualización continua del sistema para garantizar su funcionamiento óptimo.
+          - Plataforma de comercio electrónico desarrollada con Laravel, TailwindCSS y Livewire, con integración de pasarelas de pago (Webpay y Stripe) y gestión de usuarios, planes y facturación.
+          - Automatización del despliegue de servidores de juegos en VPS mediante scripts Bash y CI/CD, reduciendo los tiempos de aprovisionamiento en un 60%.
+          - Implementación de soporte técnico vía tickets y chat en vivo, mejorando el tiempo de primera respuesta en un 40%, con monitoreo continuo y medidas de seguridad para protección de datos y transacciones.
     certificados_y_premios:
-      - bullet: ARQUITECTURA DE SOFTWARE - Duoc UC (2025)
-      - bullet: ANÁLISIS Y DESARROLLO DE MODELOS DE DATOS - Duoc UC (2025)
-      - bullet: PROGRAMACIÓN DE SOFTWARE - Duoc UC (2025)
-      - bullet: CALIDAD DE SOFTWARE - Duoc UC (2025)
-      - bullet: ANÁLISIS Y PLANIFICACIÓN DE REQUERIMIENTOS INFORMÁTICOS - Duoc UC (2025)
-      - bullet: INTERNACIONAL EN INGLÉS INTERMEDIO - Duoc UC (2025)
+      - bullet: 'Duoc UC (2025): Arquitectura de Software, Análisis y Desarrollo de Modelos de Datos, Programación de Software, Calidad de Software, Análisis y Planificación de Requerimientos Informáticos, Internacional en Inglés Intermedio'
       - bullet: Principios Básicos de Internet de las Cosas - Sence (2025)
       - bullet: Programación con JavaScript - Sence (2025)
     habilidades_y_competencias:
